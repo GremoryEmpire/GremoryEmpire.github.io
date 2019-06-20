@@ -1,3 +1,88 @@
+@media screen and (max-width: 1024px){
+    .img{
+        transform: scale(.5);
+        top: 50px;
+    }
+
+    #gremory{
+        font-size: 50px;
+        margin-top: 240px;
+    }
+
+    .discord{
+        font-size: 50px;
+        margin-top: 860px;
+    }
+}
+
+@media screen and (max-width: 812px){
+    .img{
+        transform: scale(.2);
+        top: -370px;
+    }
+
+    #gremory{
+        font-size: 25px;
+        margin-top: -300px;
+    }
+
+    .discord{
+        font-size: 30px;
+        margin-top: 255px;
+    }
+}
+
+@media screen and (max-width: 736px){
+    .img{
+        transform: scale(.2);
+        top: -370px;
+    }
+
+    #gremory{
+        font-size: 25px;
+        margin-top: -300px;
+    }
+
+    .discord{
+        font-size: 30px;
+        margin-top: 255px;
+    }
+}
+
+@media screen and (max-width: 667px){
+    .img{
+        transform: scale(.2);
+        top: -370px;
+    }
+
+    #gremory{
+        font-size: 25px;
+        margin-top: -300px;
+    }
+
+    .discord{
+        font-size: 30px;
+        margin-top: 255px;
+    }
+}
+
+@media screen and (max-width: 568px){
+    .img{
+        transform: scale(.2);
+        top: -370px;
+    }
+
+    #gremory{
+        font-size: 25px;
+        margin-top: -300px;
+    }
+
+    .discord{
+        font-size: 30px;
+        margin-top: 255px;
+    }
+}
+
 @media screen and (max-width: 445px){
     #gremory{
         font-size: 30px;
@@ -8,20 +93,55 @@
     }
 }
 
-@media screen and (max-width: 320px){
-
+@media screen and (max-width: 441px){
     .img{
         transform: scale(.2);
+        top: -250px;
     }
 
     #gremory{
         font-size: 25px;
-        margin-top: -50px;
+        margin-top: -170px;
     }
 
     .discord{
         font-size: 30px;
-        margin-top: 525px;
+        margin-top: 405px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .img{
+        transform: scale(.2);
+        top: -250px;
+    }
+
+    #gremory{
+        font-size: 25px;
+        margin-top: -170px;
+    }
+
+    .discord{
+        font-size: 30px;
+        margin-top: 405px;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .img{
+        transform: scale(.2);
+        top: -300px;
+    }
+
+    #gremory{
+        font-size: 25px;
+        margin-top: -210px;
+    }
+
+    .discord{
+        font-size: 30px;
+        margin-top: 355px;
     }
 }
 
