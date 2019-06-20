@@ -1,0 +1,36 @@
+@media screen and (max-width: 445px){
+    #gremory{
+        font-size: 30px;
+    }
+
+    .discord{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .img{
+        transform: scale(.2);
+    }
+
+    #gremory{
+        font-size: 25px;
+        margin-top: -50px;
+    }
+
+    .discord{
+        font-size: 30px;
+        margin-top: 525px;
+    }
+}
+
+@media screen and (max-width: 236px){
+    #gremory{
+        font-size: 20px;
+    }
+
+    .discord{
+        font-size: 25px;
+    }
+}
