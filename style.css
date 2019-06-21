@@ -14,12 +14,13 @@ body{
     justify-content: center;
 }
 
-.img{
+#img{
     opacity: .5;
     transform: scale(.3);
     position: absolute;
     margin-left: -510px;
     top: -150px;
+    display: none;
 }
 
 
@@ -31,9 +32,10 @@ body{
     letter-spacing: 2px;
     transition: 1s ease-in-out;
     overflow: hidden;
+    display: none;
 }
 
-.discord{ 
+#discord{ 
     position: absolute;
     color: #08fdd8;
     margin-top: 600px;
@@ -46,16 +48,17 @@ body{
     outline: none;
     overflow: hidden;
     transition: 2s ease;
+    display: none;
 }
 
-.discord:hover{
+#discord:hover{
     background-color: #08fdd8;
     color: #fff;
     transition: 2s ease;
     border: 3px solid #000;
 }
 
-.discord::before{
+#discord::before{
     content: "";
     position: absolute;
     top: -1px;
@@ -66,7 +69,7 @@ body{
     transform: skewX(-45deg);
 }  
 
-.discord:hover::before{
+#discord:hover::before{
     left: 500px;
     transition: 1.2s ease-in-out;
 }
